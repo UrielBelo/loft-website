@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid gray;
+    background-image: linear-gradient(to top, #CCC, #EEE);
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./assets/city.jpg);
+}
+#imagesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 78vw;
+}
+.imgOnGrid{
+    width: 100%;
+    border: 3px solid transparent;
+}
+.imgOnGridF{
+    width: 78vw;
+    border: 3px solid transparent;
+}
+video{
+    width: 78vw;
+}
